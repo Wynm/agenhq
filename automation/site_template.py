@@ -12,7 +12,7 @@ CONFIG = {
     "site_name": "دليل التقنية",
     "site_url": "https://wynm.github.io/agenhq",
     "hilltop_link": "https://motionless-bus.com/OZwdbp",
-    "clickaine": "709ed04ee734618249673343497f9efe913c2e56a36bf6f0f1621eec25a7990650c125f450cc40283300e08aaccc5ca5718776c488bad1e20b3bd311ac6f8300",
+    "clickaine": "f5ba98b6756eb503f321cc8fbdf05f2835de8df2d45303060dd83e6c0fe429079fd2e927cec5ce80ad86c2e3172e13b832f202ecb557f3a18af8d8fcc2b6a148",
 }
 C = CONFIG
 e = H.escape
