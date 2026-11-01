@@ -2,6 +2,20 @@
  "_help": "لائحة المقالات المنشورة (الأحدث أولا). السكريبت كيستعملها باش مايعاودش نفس الموضوع/الخبر ويبني الرئيسية والـ sitemap والـ feed.",
  "articles": [
   {
+   "slug": "applebees-app-security-flaw-data-exposure",
+   "title": "ثغرة أمنية في تطبيق مطاعم أبلبيز تعرض بيانات ملايين المستخدمين للخطر",
+   "short": "ثغرة في تطبيق أبلبيز",
+   "desc": "تعرف على تفاصيل الثغرة الأمنية الخطيرة في تطبيق أبلبيز وكيف تم اكتشافها بواسطة باحث أمني، وماذا تعني هذه الحادثة لخصوصية المستخدمين وأمان بياناتهم الشخصية.",
+   "tag": "الأمان الرقمي",
+   "date": "2026-11-01",
+   "published_at": "2026-11-01T20:19:39+00:00",
+   "auto": true,
+   "model": "gemini-flash-lite-latest",
+   "kind": "news",
+   "image": "og-applebees-app-security-flaw-data-exposure.png",
+   "words": 911
+  },
+  {
    "slug": "ai-tools-students",
    "title": "10 أدوات ذكاء اصطناعي مجانية تساعدك في الدراسة (دليل عملي 2026)",
    "short": "أدوات ذكاء اصطناعي مجانية للطلبة",
@@ -33,5 +47,10 @@
   }
  ],
  "used_topics": [],
- "used_sources": []
+ "used_sources": [
+  "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/"
+ ],
+ "used_source_titles": [
+  "Applebee’s exposed customers’ personal data after leaving database password in app"
+ ]
 }

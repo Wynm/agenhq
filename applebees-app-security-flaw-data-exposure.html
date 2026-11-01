@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ثغرة أمنية في تطبيق مطاعم أبلبيز تعرض بيانات ملايين المستخدمين للخطر | دليل التقنية</title>
+<meta name="description" content="تعرف على تفاصيل الثغرة الأمنية الخطيرة في تطبيق أبلبيز وكيف تم اكتشافها بواسطة باحث أمني، وماذا تعني هذه الحادثة لخصوصية المستخدمين وأمان بياناتهم الشخصية.">
+<link rel="canonical" href="https://wynm.github.io/agenhq/applebees-app-security-flaw-data-exposure.html">
+<meta name="clickaine-site-verification" content="f5ba98b6756eb503f321cc8fbdf05f2835de8df2d45303060dd83e6c0fe429079fd2e927cec5ce80ad86c2e3172e13b832f202ecb557f3a18af8d8fcc2b6a148" />
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0f766e">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:site_name" content="دليل التقنية">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ثغرة أمنية في تطبيق مطاعم أبلبيز تعرض بيانات ملايين المستخدمين للخطر">
+<meta property="og:description" content="تعرف على تفاصيل الثغرة الأمنية الخطيرة في تطبيق أبلبيز وكيف تم اكتشافها بواسطة باحث أمني، وماذا تعني هذه الحادثة لخصوصية المستخدمين وأمان بياناتهم الشخصية.">
+<meta property="og:url" content="https://wynm.github.io/agenhq/applebees-app-security-flaw-data-exposure.html">
+<meta property="og:image" content="https://wynm.github.io/agenhq/img/og-applebees-app-security-flaw-data-exposure.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ثغرة أمنية في تطبيق مطاعم أبلبيز تعرض بيانات ملايين المستخدمين للخطر", "description": "تعرف على تفاصيل الثغرة الأمنية الخطيرة في تطبيق أبلبيز وكيف تم اكتشافها بواسطة باحث أمني، وماذا تعني هذه الحادثة لخصوصية المستخدمين وأمان بياناتهم الشخصية.", "inLanguage": "ar", "datePublished": "2026-11-01", "dateModified": "2026-11-01", "image": "https://wynm.github.io/agenhq/img/og-applebees-app-security-flaw-data-exposure.png", "author": {"@type": "Organization", "name": "دليل التقنية"}, "publisher": {"@type": "Organization", "name": "دليل التقنية"}, "mainEntityOfPage": "https://wynm.github.io/agenhq/applebees-app-security-flaw-data-exposure.html"}</script>
+<link rel="alternate" type="application/rss+xml" title="دليل التقنية" href="feed.xml">
+<!-- ADSTERRA_HEAD_CODES: إلا عطاتك شي شبكة كود خاصو يتحط فـ head، حطو هنا -->
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+  <a class="logo" href="index.html"><span class="logo-mark">د</span>دليل التقنية</a>
+  <nav class="nav"><a href="index.html">الرئيسية</a><a class="hide-sm" href="index.html#articles">المقالات</a><a href="about.html">من نحن</a><a href="contact.html">اتصل بنا</a></nav>
+</div></header>
+<div class="wrap"><div class="ad-slot ad-320x50">
+  <span class="ad-label">إعلان</span>
+  <!-- ADSTERRA_BANNER_320x50: الصق هنا كود Banner 320x50 من Adsterra -->
+  <!-- احذف السطر الموالي (ad-placeholder) بعد لصق الكود -->
+  <div class="ad-placeholder">مساحة إعلانية <bdi dir="ltr">320×50</bdi></div>
+</div>
+<div class="layout">
+<article>
+  <div class="crumbs"><a href="index.html">الرئيسية</a> › الأمان الرقمي</div>
+  <h1>ثغرة أمنية في تطبيق مطاعم أبلبيز تعرض بيانات ملايين المستخدمين للخطر</h1>
+  <div class="meta">آخر تحديث: 1 نونبر 2026 · مدة القراءة: 5 دقائق</div>
+  <img class="cover" src="img/og-applebees-app-security-flaw-data-exposure.png" alt="ثغرة في تطبيق أبلبيز" width="1200" height="630">
+  <p class="lead">كشفت تقارير إخبارية نشرها موقع <strong>TechCrunch</strong> عن وقوع ثغرة أمنية خطيرة في التطبيق الرسمي لسلسلة المطاعم الشهيرة أبلبيز، حيث أدت إلى ترك كلمة مرور قاعدة البيانات الداخلية مكشوفة داخل شيفرة التطبيق. هذا الخطأ التقني سمح للباحثين والمخترقين المحتملين بالوصول غير المقيّد إلى البيانات الشخصية للمستخدمين المسجلين، مما أثار تساؤلات واسعة حول معايير حماية البيانات الشخصية في التطبيقات الذكية وكيفية تعامل الشركات الكبرى مع أمن المستخدمين.</p>
+<div class="note"><strong>مصدر الخبر:</strong> <a href="https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/" target="_blank" rel="noopener nofollow">TechCrunch</a> — نعيد شرح الخبر وتبسيطه بالعربية؛ راجع المصدر الأصلي للتفاصيل الكاملة.</div>
+
+<h2 id="s1">تفاصيل الاكتشاف الأمني والتقنيات المستخدمة</h2>
+<p>بحسب ما أفاد به موقع <strong>TechCrunch</strong>، اكتشف باحث أمني مختص في الأمن السيبراني يقيم في المملكة المتحدة يدعى روبرت ويغينز هذه الثغرة الأمنية الخطيرة. استخدم الباحث أدوات الذكاء الاصطناعي للمساعدة في فحص وتحليل آلاف الأسطر البرمجية داخل الشيفرة المصدرية لتطبيق أندرويد التابع لسلسلة أبلبيز.</p>
+<p>تمكن الباحث من العثور على كلمة مرور أو مفتاح خاص مخفي بطريقة برمجية تُعرف باسم البيانات المضمنة صراحة، وهي من أخطر الثغرات الأمنية؛ لأنها تتيح لأي شخص يستخرج هذه البيانات استخدامها للوصول إلى الأنظمة البعيدة وكأنه مستخدم مصرح له تمامًا، مما يسهل عمليات اختراق قواعد البيانات الحساسة.</p>
+<ul>
+<li>استخدام الذكاء الاصطناعي لتحليل الشيفرات المعقدة</li>
+<li>العثور على كلمات مرور مضمنة داخل شيفرة التطبيق</li>
+<li>تأكيد الثغرة من خلال فك تجميع التطبيق واختبارها</li>
+</ul>
+
+<h2 id="s2">ما هي البيانات الشخصية التي تعرضت للخطر؟</h2>
+<p>أكد موقع <strong>TechCrunch</strong> بعد التحقق من صحة النتائج أن قاعدة البيانات المكشوفة كانت تضم كميات هائلة من المعلومات الشخصية الحساسة الخاصة بالعملاء. شملت هذه البيانات أسماء المستخدمين، وعناوين البريد الإلكتروني، ومعرفة ما إذا كان البريد مؤكدًا أم لا.</p>
+<p>إضافة إلى ذلك، تضمنت البيانات المسربة تواريخ الميلاد، وأرقام الهاتف، والرموز البريدية، وحالة الخدمة العسكرية للمستخدمين، وعدد مرات تسجيل الدخول، وتواريخ إنشاء الحسابات. كما شملت البيانات عناوين بروتوكول الإنترنت المرتبطة بآخر عمليات تسجيل دخول، والتي يمكن استغلالها لتحديد الموقع الجغرافي التقريبي للمستخدم.</p>
+<ul>
+<li>أسماء وعناوين بريد إلكتروني وأرقام هواتف</li>
+<li>تواريخ الميلاد والرموز البريدية وحالة الخدمة العسكرية</li>
+<li>عناوين بروتوكول الإنترنت التي تكشف الموقع الجغرافي التقريبي</li>
+</ul>
+
+<h2 id="s3">صعوبة التواصل مع الشركة والإبلاغ عن الثغرة</h2>
+<p>واجه الباحث الأمني صعوبات بالغة عندما أراد إبلاغ شركة أبلبيز أو الشركة الأم داين براندز عن الثغرة الأمنية الخطيرة، وذلك لعدم توفر قنوات اتصال واضحة أو آليات محددة لدى الشركتين لتلقي بلاغات الأخطاء والثغرات الأمنية من الباحثين المستقلين.</p>
+<p>نتيجة لذلك، اضطر الباحث إلى اللجوء إلى موقع <strong>TechCrunch</strong> لمساعدته في التواصل مع مسؤولي الشركة وإيصال التنبيه الأمني بشكل آمن وسريع، مما يبرز الأهمية الكبيرة لوجود صفحات وبرامج مخصصة للإبلاغ عن الثغرات في الشركات والمؤسسات التقنية.</p>
+<ul>
+<li>غياب قنوات واضحة للإبلاغ عن الثغرات لدى الشركات</li>
+<li>الاستعانة بالإعلام التقني لتوصيل التنبيهات الأمنية</li>
+<li>أهمية برامج مكافأة الثغرات في تحسين الحماية</li>
+</ul>
+
+<div class="ad-slot ad-300x250">
+  <span class="ad-label">إعلان</span>
+  <!-- ADSTERRA_BANNER_300x250: الصق هنا كود Banner 300x250 من Adsterra -->
+  <!-- احذف السطر الموالي (ad-placeholder) بعد لصق الكود -->
+  <div class="ad-placeholder">مساحة إعلانية <bdi dir="ltr">300×250</bdi></div>
+</div>
+
+<h2 id="s4">استجابة الشركة والتحقيقات الجارية</h2>
+<p>بحسب تقرير <strong>TechCrunch</strong>، أكدت الشركة المالكة للمطاعم أنها قامت بمعالجة الثغرة الأمنية فور تنبيهها، واتخذت إجراءات عاجلة لمنع أي وصول غير مرغوب فيه إلى قاعدة بيانات العملاء. وذكرت متحدثة باسم الشركة أن فريق الأمن السيبراني بدأ تحقيقًا شاملًا.</p>
+<p>أشارت الشركة في بيانها إلى أنها لم تعثر حتى لحظة إعداد التقرير على أي أدلة تؤكد حدوث عمليات وصول غير مصرح بها للبيانات، مؤكدة أن تحقيقاتها لا تزال مستمرة لاتخاذ الخطوات اللازمة بناءً على النتائج النهائية.</p>
+<ul>
+<li>إصلاح الثغرة الأمنية بشكل عاجل وسريع</li>
+<li>إطلاق تحقيق داخلي لمعرفة نطاق الضرر</li>
+<li>التأكيد على عدم رصد أدلة لاختراق فعلي حتى الآن</li>
+</ul>
+
+<h2 id="s5">ماذا تعني هذه الحادثة للمستخدم العادي؟</h2>
+<p>بالنسبة للمستخدم العادي، تذكرنا هذه الحادثة بأن التطبيقات التي نستخدمها يوميًا قد تحتوي أحيانًا على أخطاء برمجية خفية تعرض بياناتنا للخطر رغم سمعة الشركات الكبرى. تسريب معلومات مثل أرقام الهواتف وتواريخ الميلاد قد يمهد الطريق لهجمات احتيالية مستهدفة.</p>
+<p>لذلك، يجب توخي الحذر عند مشاركة المعلومات الشخصية مع التطبيقات التجارية، والتحقق المستمر من إعدادات الخصوصية، وتجنب استخدام كلمات مرور متكررة عبر منصات متعددة، ومتابعة الأخبار التقنية للتعرف على أي تحديثات أمنية مطلوبة لتطبيقات الهاتف المحمول.</p>
+<ul>
+<li>الحذر عند إدخال البيانات الشخصية في التطبيقات</li>
+<li>أهمية تحديث التطبيقات باستمرار للحصول على الإصلاحات</li>
+<li>عدم استخدام كلمات مرور متشابهة في كل الحسابات</li>
+</ul>
+
+<h2 id="s6">نصائح عملية لحماية بياناتك الشخصية على الهواتف</h2>
+<p>لحماية نفسك من مخاطر تسريب البيانات الناجمة عن ثغرات التطبيقات، يوصى دائمًا بتحديث تطبيقات الهاتف المحمول إلى أحدث الإصدارات فور توفرها على المتاجر الرسمية، حيث تتضمن التحديثات إصلاحات أمنية حرجة.</p>
+<p>كما يُنصح بمراجعة الصلاحيات الممنوحة للتطبيقات وتقليصها قدر الإمكان، وعدم تقديم بيانات حساسة غير ضرورية لعمل التطبيق، واستخدام عناوين بريد إلكتروني بديلة أو مخصصة للتسجيل في برامج الولاء والمكافآت التجارية.</p>
+<ul>
+<li>تحديث التطبيقات باستمرار من المتاجر الرسمية</li>
+<li>تقليص الصلاحيات الممنوحة للتطبيقات في الهاتف</li>
+<li>الاستعانة ببريد إلكتروني مخصص للتسجيل في العروض</li>
+</ul>
+
+<h2 id="faq">أسئلة شائعة</h2>
+<h3>كيف تم اكتشاف هذه الثغرة الأمنية في تطبيق أبلبيز؟</h3>
+<p>تم اكتشاف الثغرة بواسطة باحث أمني استعان بتقنيات الذكاء الاصطناعي لفحص آلاف الأسطر البرمجية داخل شيفرة تطبيق أندرويد الخاص بالمطاعم، حيث عثر على كلمة مرور قاعدة البيانات مخفية داخل الشيفرة.</p>
+<h3>ما هي نوعية البيانات التي تعرضت للخطر في هذا التسريب؟</h3>
+<p>شملت البيانات أسماء المستخدمين، وعناوين البريد الإلكتروني، وتواريخ الميلاد، وأرقام الهواتف، والرموز البريدية، وحالة الخدمة العسكرية، بالإضافة إلى معلومات عن تسجيل الدخول وعناوين بروتوكول الإنترنت.</p>
+<h3>كيف تعاملت الشركة مع هذا الخلل الأمني بعد اكتشافه؟</h3>
+<p>أكدت الشركة أنها قامت باتخاذ إجراءات سريعة وفورية لمعالجة الثغرة الأمنية وإغلاق منفذ الوصول غير المصرح به، وأطلقت تحقيقًا داخليًا لمتابعة تفاصيل الحادثة والتأكد من عدم استغلال البيانات.</p>
+<h3>ماذا يمكن للمستخدم العادي أن يفعل لحماية خصوصيته؟</h3>
+<p>يمكن للمستخدم تحديث التطبيقات باستمرار، ومراجعة الصلاحيات الممنوحة لها، والتقليل من مشاركة البيانات الشخصية غير الضرورية، وتجنب استخدام نفس كلمة المرور في أكثر من تطبيق أو خدمة رقمية.</p>
+
+<h2 id="sources">المصادر</h2>
+<ul><li><a href="https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/" target="_blank" rel="noopener nofollow">Applebee’s exposed customers’ personal data after leaving database password in app</a> — TechCrunch (2026-10-30)</li></ul>
+
+<p class="outro">تُظهر حادثة تسريب بيانات أبلبيز أهمية اليقظة المستمرة في مجال الأمن السيبراني للتطبيقات الذكية. احرص دائماً على تحديث تطبيقاتك ومتابعة موقع دليل التقنية للاطلاع على المستجدات ونصائح الحماية الرقمية.</p>
+<p style="font-size:14px;color:#6b7c88">أُعدّ هذا المقال بمساعدة أدوات الذكاء الاصطناعي اعتمادًا على المصدر المذكور أعلاه. إذا لاحظت خطأ، راسلنا من صفحة <a href="contact.html">اتصل بنا</a> لنصحّحه.</p>
+  <div class="share">
+    <a class="fb" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//wynm.github.io/agenhq/applebees-app-security-flaw-data-exposure.html" target="_blank" rel="noopener">شارك على فيسبوك</a>
+    <a class="wa" href="https://wa.me/?text=%D8%AB%D8%BA%D8%B1%D8%A9%20%D8%A3%D9%85%D9%86%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%20%D9%85%D8%B7%D8%A7%D8%B9%D9%85%20%D8%A3%D8%A8%D9%84%D8%A8%D9%8A%D8%B2%20%D8%AA%D8%B9%D8%B1%D8%B6%20%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA%20%D9%85%D9%84%D8%A7%D9%8A%D9%8A%D9%86%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%D9%8A%D9%86%20%D9%84%D9%84%D8%AE%D8%B7%D8%B1%20https%3A//wynm.github.io/agenhq/applebees-app-security-flaw-data-exposure.html" target="_blank" rel="noopener">أرسل في واتساب</a>
+    <button class="cp" type="button">انسخ الرابط</button>
+  </div>
+  <div class="ad-slot ad-native">
+  <span class="ad-label">إعلانات مقترحة (Sponsored)</span>
+  <!-- ADSTERRA_NATIVE_BANNER: الصق هنا كود Native Banner من Adsterra (السكريبت + div) -->
+  <!-- احذف السطر الموالي (ad-placeholder) بعد لصق الكود -->
+  <div class="ad-placeholder">مساحة Native Banner</div>
+</div>
+  <h2 class="section-title">اقرأ أيضًا</h2>
+  <div class="grid"><a class="card" href="ai-tools-students.html">
+  <img src="img/og-ai-tools-students.png" alt="أدوات ذكاء اصطناعي مجانية للطلبة" loading="lazy" width="1200" height="630">
+  <div class="body"><span class="tag">الذكاء الاصطناعي</span><h3>10 أدوات ذكاء اصطناعي مجانية تساعدك في الدراسة (دليل عملي 2026)</h3><p>عشر أدوات ذكاء اصطناعي بخطط مجانية تساعد الطالب على التلخيص والفهم والبحث والترجمة، مع طريقة استعمال كل أداة وأخطاء يجب تجنّبها.</p></div></a><a class="card" href="speed-up-android.html">
+  <img src="img/og-speed-up-android.png" alt="تسريع هاتف أندرويد بدون تطبيقات" loading="lazy" width="1200" height="630">
+  <div class="body"><span class="tag">الهاتف</span><h3>12 طريقة لتسريع هاتف أندرويد بطيء بدون أي تطبيق</h3><p>خطوات عملية من إعدادات الهاتف نفسه لتسريع أندرويد البطيء وتحرير الذاكرة وتحسين البطارية، دون تطبيقات تنظيف مليئة بالإعلانات.</p></div></a><a class="card" href="protect-accounts.html">
+  <img src="img/og-protect-accounts.png" alt="حماية فيسبوك وواتساب من الاختراق" loading="lazy" width="1200" height="630">
+  <div class="body"><span class="tag">الأمان الرقمي</span><h3>كيف تحمي حسابك على فيسبوك وواتساب وإنستغرام من الاختراق: خطوة بخطوة</h3><p>دليل عملي لتفعيل المصادقة الثنائية وكلمات مرور قوية ومراجعة الأجهزة المتصلة، وماذا تفعل إذا سُرق حسابك على فيسبوك أو واتساب.</p></div></a></div>
+</article>
+<aside class="sidebar">
+  <div class="box"><h3>محتوى المقال</h3><ul><li><a href="#s1">تفاصيل الاكتشاف الأمني والتقنيات المستخدمة</a></li><li><a href="#s2">ما هي البيانات الشخصية التي تعرضت للخطر؟</a></li><li><a href="#s3">صعوبة التواصل مع الشركة والإبلاغ عن الثغرة</a></li><li><a href="#s4">استجابة الشركة والتحقيقات الجارية</a></li><li><a href="#s5">ماذا تعني هذه الحادثة للمستخدم العادي؟</a></li><li><a href="#s6">نصائح عملية لحماية بياناتك الشخصية على الهواتف</a></li><li><a href="#faq">أسئلة شائعة</a></li><li><a href="#sources">المصادر</a></li></ul></div>
+  <div class="ad-slot ad-sidebar">
+  <span class="ad-label">إعلان</span>
+  <!-- CLICKAINE_BANNER_OR_NATIVE: الصق هنا كود زون Clickaine (Banner أو Native) — يظهر فالحاسوب فقط -->
+  <!-- احذف السطر الموالي (ad-placeholder) بعد لصق الكود -->
+  <div class="ad-placeholder">مساحة إعلانية <bdi dir="ltr">300×250</bdi></div>
+</div>
+</aside>
+</div></div>
+<footer class="site-footer"><div class="wrap">
+  <div class="foot-grid">
+    <div><strong>دليل التقنية</strong><br>شروحات تقنية مبسّطة بالعربية: الذكاء الاصطناعي، الهاتف، والأمان الرقمي.
+      <div class="foot-links" style="margin-top:10px"><a href="about.html">من نحن</a><a href="contact.html">اتصل بنا</a><a href="privacy.html">سياسة الخصوصية</a><a href="terms.html">شروط الاستخدام</a></div></div>
+    <div class="sponsored-box">
+      <span class="ad-label">إعلان · Sponsored</span>
+      <!-- HILLTOPADS_DIRECTLINK: رابط إعلاني اختياري وواضح. لا تغيّر النص لشيء مضلل ولا تحوّلو لزر "تحميل". -->
+      <a href="https://motionless-bus.com/OZwdbp" target="_blank" rel="sponsored nofollow noopener">عروض مختارة من المعلنين ←</a>
+      <div style="font-size:13px;color:#8fa1ad">رابط إعلاني لطرف ثالث، يُفتح في نافذة جديدة.</div>
+    </div>
+  </div>
+  <div class="copy">© 2026 دليل التقنية. المحتوى لأغراض تعليمية. هذا الموقع يعرض إعلانات من شبكات إعلانية خارجية.</div>
+</div></footer>
+
+<!-- ADSTERRA_SOCIAL_BAR: الصق هنا كود Social Bar (سكريبت واحد فقط).
+     لا تضف معه In-Page Push ديال Clickaine فنفس الصفحة. -->
+<!-- ADSTERRA_POPUNDER (اختياري، معطّل): لا تفعّله إذا كان الزوار جايين من فيسبوك/إنستغرام.
+     سياسة Meta كتعتبر pop-ups/unders واجهة مضللة وتقدر تبلوكي روابط الدومين ديالك. -->
+<script>
+document.querySelectorAll('.cp').forEach(function(b){b.addEventListener('click',function(){
+  navigator.clipboard&&navigator.clipboard.writeText(location.href).then(function(){b.textContent='تم نسخ الرابط ✓'});});});
+</script>
+</body></html>
