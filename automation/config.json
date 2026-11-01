@@ -1,0 +1,25 @@
+{
+  "_help": "posts_per_run = عدد المقالات فكل تشغيل. news_every = 2 يعني مقال واحد من كل 2 كيكون خبر (والباقي مواضيع دائمة من topics.json). 0 = بلا أخبار.",
+  "posts_per_run": 1,
+  "news_every": 2,
+  "models": ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash"],
+  "min_words": 800,
+  "max_words": 1500,
+  "news_max_age_hours": 72,
+  "home_max_articles": 12,
+  "feed_items": 20,
+  "ai_disclosure": true,
+  "feeds": [
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml"},
+    {"name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab"},
+    {"name": "Engadget", "url": "https://www.engadget.com/rss.xml"},
+    {"name": "Google Blog (AI)", "url": "https://blog.google/technology/ai/rss/"},
+    {"name": "عالم التقنية", "url": "https://www.tech-wd.com/wd/feed/"},
+    {"name": "BBC عربي - علوم وتكنولوجيا", "url": "https://feeds.bbci.co.uk/arabic/scienceandtech/rss.xml"},
+    {"name": "سكاي نيوز عربية - تكنولوجيا", "url": "https://www.skynewsarabia.com/rss/technology.xml"}
+  ],
+  "news_keywords": ["ai", "artificial intelligence", "openai", "chatgpt", "gemini", "claude", "copilot", "google", "android", "iphone", "ios", "apple", "samsung", "whatsapp", "instagram", "facebook", "meta", "tiktok", "youtube", "microsoft", "windows", "security", "hack", "scam", "password", "app", "smartphone", "chip", "freelance", "creator",
+                    "ذكاء", "اصطناعي", "هاتف", "تطبيق", "أندرويد", "آيفون", "واتساب", "غوغل", "جوجل", "آبل", "سامسونغ", "مايكروسوفت", "ويندوز", "اختراق", "احتيال", "يوتيوب", "تيك توك", "إنستغرام", "فيسبوك", "شات جي بي تي"],
+  "news_skip_keywords": ["deal", "deals", "discount", "coupon", "sale", "% off", "podcast", "giveaway", "sponsored", "lawsuit", "trump", "election", "war", "crypto", "bitcoin", "casino", "bet", "تخفيض", "خصم", "حرب", "انتخابات"]
+}
