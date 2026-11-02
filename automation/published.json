@@ -2,6 +2,20 @@
  "_help": "لائحة المقالات المنشورة (الأحدث أولا). السكريبت كيستعملها باش مايعاودش نفس الموضوع/الخبر ويبني الرئيسية والـ sitemap والـ feed.",
  "articles": [
   {
+   "slug": "how-to-start-freelancing-from-scratch",
+   "title": "كيف تبدأ العمل الحر على الإنترنت من الصفر خطوة بخطوة",
+   "short": "دليل العمل الحر للمبتدئين",
+   "desc": "دليل عملي شامل ومجرب لبدء العمل الحر على الإنترنت من الصفر. تعرف على المهارات المطلوبة، وأفضل المنصات، وكيف تحصل على عميلك الأول بصراحة وواقعية.",
+   "tag": "الربح من الإنترنت",
+   "date": "2026-11-02",
+   "published_at": "2026-11-02T17:33:11+00:00",
+   "auto": true,
+   "model": "gemini-flash-lite-latest",
+   "kind": "evergreen",
+   "image": "og-how-to-start-freelancing-from-scratch.png",
+   "words": 863
+  },
+  {
    "slug": "applebees-app-security-flaw-data-exposure",
    "title": "ثغرة أمنية في تطبيق مطاعم أبلبيز تعرض بيانات ملايين المستخدمين للخطر",
    "short": "ثغرة في تطبيق أبلبيز",
@@ -46,7 +60,9 @@
    "auto": false
   }
  ],
- "used_topics": [],
+ "used_topics": [
+  "earn-freelance-start"
+ ],
  "used_sources": [
   "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/"
  ],
