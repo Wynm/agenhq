@@ -2,6 +2,20 @@
  "_help": "لائحة المقالات المنشورة (الأحدث أولا). السكريبت كيستعملها باش مايعاودش نفس الموضوع/الخبر ويبني الرئيسية والـ sitemap والـ feed.",
  "articles": [
   {
+   "slug": "apple-music-selfie-sing-feature",
+   "title": "ميزة سيلفي سينغ القادمة من أبل ميوزيك لتسجيل الكاراكتير",
+   "short": "ميزة سيلفي سينغ في أبل ميوزيك",
+   "desc": "تعرف على ميزة سيلفي سينغ القادمة إلى تطبيق أبل ميوزيك لتسجيل عروض الكاراكتير بالفيديو، وتفاصيل الميزات الجديدة في التحديث القادم من أبل.",
+   "tag": "أخبار التقنية",
+   "date": "2026-11-04",
+   "published_at": "2026-11-04T15:55:53+00:00",
+   "auto": true,
+   "model": "gemini-flash-lite-latest",
+   "kind": "news",
+   "image": "og-apple-music-selfie-sing-feature.png",
+   "words": 1008
+  },
+  {
    "slug": "how-to-start-freelancing-from-scratch",
    "title": "كيف تبدأ العمل الحر على الإنترنت من الصفر خطوة بخطوة",
    "short": "دليل العمل الحر للمبتدئين",
@@ -64,9 +78,11 @@
   "earn-freelance-start"
  ],
  "used_sources": [
-  "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/"
+  "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+  "https://www.engadget.com/2306269/apple-music-selfie-sing-karaoke-video/"
  ],
  "used_source_titles": [
-  "Applebee’s exposed customers’ personal data after leaving database password in app"
+  "Applebee’s exposed customers’ personal data after leaving database password in app",
+  "Apple Music's upcoming feature will let you record yourself doing karaoke"
  ]
 }
